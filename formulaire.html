@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aljeannah - Aide aux Enfants de la Rue(Talibe)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="formulaire.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-hands-helping"></i>
+                <h1>Al<span>jeannah</span></h1>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu mobile">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#needs">Besoins</a></li>
+                    <li><a href="#donate">Faire un don</a></li>
+                    <li><a href="#points">Points de collecte</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h2>Aidez les enfants de la rue à affronter le froid,la faim et la chaleur </h2>
+            <p>Chaque hiver, des milliers d'enfants souffrent du froid dans nos rues. Ensemble, nous pouvons leur apporter des vêtements chauds, des chaussures, de la nourriture et un peu de réconfort. Chaque don compte.</p>
+            <a href="#donate" class="btn">Faire un don maintenant</a>
+        </div>
+    </section>
+
+    <!-- Section Besoins -->
+    <section class="needs" id="needs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ce dont ils ont besoin</h2>
+                <p>Voici les principaux articles dont les enfants de la rue ont besoin pour survivre à l'hiver et au dela</del></p>
+            </div>
+            
+            <div class="needs-grid">
+                <div class="need-card">
+                    <div class="need-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Vêtements chauds</h3>
+                    <p>Des Pulls, pantalons chauds, hauts, chemises</p>
+                </div>
+                
+                <div class="need-card">
+                    <div class="need-icon">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <h3>Chaussures</h3>
+                    <p>Chaussures fermées, sandales, chaussettes épaisses en bon état pour protéger du froid et de l'humidité.</p>
+                </div>
+                
+                <div class="need-card">
+                    <div class="need-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Nourriture</h3>
+                    <p>Denrées non périssables, aliments riches en énergie, boissons chaudes, repas préparés.</p>
+                </div>
+                
+                <div class="need-card">
+                    <div class="need-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Dons financiers</h3>
+                    <p>Pour acheter des articles spécifiques, et financer des soins médicaux grippe etc..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Google Forms -->
+    <section id="donate">
+        <div class="container">
+            <div class="section-title">
+                <h2>Faire un don</h2>
+                <p>Remplissez notre formulaire en ligne pour organiser votre don. Nous vous recontacterons pour convenir des détails de collecte.</p>
+            </div>
+            
+            <div class="google-form-container">
+                <iframe 
+                    src="https://forms.gle/pDM6k3YDrVZEXVax7" 
+                    width="100%" 
+                    height="1200" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    title="Formulaire de don pour enfants de la rue">
+                    Chargement…
+                </iframe>
+                <p class="form-alternative">
+                    <i class="fas fa-external-link-alt"></i>
+                    Si le formulaire ne s'affiche pas, 
+                    <a href="https://forms.gle/pDM6k3YDrVZEXVax7" target="_blank">
+                        cliquez ici pour l'ouvrir dans une nouvelle fenêtre
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Points de Collecte -->
+    <section class="collection-points" id="points">
+        <div class="container">
+            <div class="section-title">
+                <h2>Points de collecte</h2>
+                <p>Vous pouvez déposer vos dons dans l'un de nos points de collecte partenaires.</p>
+            </div>
+            
+            <div class="points-container">
+                <div class="point-card">
+                    <div class="point-info">
+                        <h3>Senegal - Diourbel</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Diourbel cite ouvriere / thierno kandji</p>
+                        <p><i class="fas fa-clock"></i> Lundi - Dimanche: 24h/24</p>
+                        <p><i class="fas fa-phone"></i> 76 202 03 46</p>
+                    </div>
+                </div>
+                
+                <div class="point-card">
+                    <div class="point-info">
+                        <h3>Senegal - Dakar</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Fann hock / keur Massar</p>
+                        <p><i class="fas fa-clock"></i>Lundi - Dimanche: 24h/24</p>
+                        <p><i class="fas fa-phone"></i>76 202 03 46</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Témoignages</h2>
+                <p>Découvrez l'impact de votre générosité à travers les témoignages de ceux que nous aidons.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Grâce aux dons reçus, nous avons pu distribuer x pulls cet hiver à des enfants qui en avaient désespérément besoin.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Assya jeager</h4>
+                        <p>Bénévole depuis 2mois</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Les chaussures que j'ai reçues m'ont permis de marcher au sec tout l'hiver et m'aideront aussi quand il fera chaud Merci à tous les donateurs !</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Karim, 9 ans</h4>
+                        <p>Bénéficiaire</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Notre entreprise fournie de l'eau comme don en soutient</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Eau Binta</h4>
+                        <p>Entreprise partenaire</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Aljeannah</h3>
+                    <p>Association à but non lucratif dédiée à l'aide aux enfants de la rue face aux rigueurs de l'hiver et au dela</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                        <li><a href="#needs"><i class="fas fa-chevron-right"></i> Nos besoins</a></li>
+                        <li><a href="#donate"><i class="fas fa-chevron-right"></i> Faire un don</a></li>
+                        <li><a href="#points"><i class="fas fa-chevron-right"></i> Points de collecte</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contactez-nous</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i>Dakar(fann hock), Diourbel(cite ouvriere)</li>
+                        <li><i class="fas fa-phone"></i> 76 202 03 46</li>
+                        <li><i class="fas fa-envelope"></i> badianeassia7@gmail.com</li>
+                        <li><i class="fas fa-clock"></i> 24h/24</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Inscrivez-vous pour recevoir nos actualités et appels aux dons.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Votre adresse email" required>
+                        <button type="submit" class="btn-newsletter">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <p class="privacy-note">
+                        <i class="fas fa-lock"></i>
+                        Vos données sont protégées. 
+                        <a href="#">Politique de confidentialité</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2026 Collecte de dons Aljeannah Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="formulaire.js"></script>
+</body>
+</html>
